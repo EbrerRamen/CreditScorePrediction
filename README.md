@@ -48,7 +48,6 @@ Multiple machine learning models were tested to find the best-performing one for
 - **Logistic Regression**  
 - **Decision Tree Classifier**  
 - **Random Forest Classifier**  
-- **XGBoost Classifier**
 
 The dataset was split into training and testing sets, and evaluation was based on accuracy, precision, recall, and F1-score metrics.
 
@@ -83,7 +82,6 @@ Example performance metrics (illustrative summary):
 - **Pandas, NumPy** – for data processing  
 - **Matplotlib, Seaborn** – for data visualization  
 - **Scikit-learn** – for model building and evaluation  
-- **XGBoost** – for advanced ensemble modeling  
 - **Jupyter Notebook / Google Colab** – for code execution and analysis  
 
 ---
