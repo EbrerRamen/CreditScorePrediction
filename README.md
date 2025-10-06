@@ -45,7 +45,7 @@ The notebook explores patterns and insights such as:
 
 ## 🧠 Model Training
 Multiple machine learning models were tested to find the best-performing one for credit score prediction, including:
-- **Logistic Regression**  
+- **K-Nearest Neighbors**  
 - **Decision Tree Classifier**  
 - **Random Forest Classifier**  
 
@@ -58,12 +58,12 @@ After experimentation, the **Random Forest Classifier** (and in some cases XGBoo
 
 Example performance metrics (illustrative summary):
 
-| Metric | Random Forest | Logistic Regression | Decision Tree |
+| Metric | Random Forest | KNN | Decision Tree |
 |:-------|:--------------|:-------------------|:---------------|
-| Accuracy | 91.2% | 82.5% | 87.0% |
-| Precision | 0.90 | 0.80 | 0.85 |
-| Recall | 0.91 | 0.81 | 0.86 |
-| F1-Score | 0.90 | 0.80 | 0.85 |
+| Accuracy | 77.56% | 65.01% | 70.67% |
+| Precision | 77.51% | 64.91% | 70.68% |
+| Recall | 77.56% | 65.01% | 70.67% |
+| F1-Score | 77.53% | 64.89% | 70.67% |
 
 📈 *See the notebook for confusion matrices, feature importance plots, and detailed classification reports.*
 
